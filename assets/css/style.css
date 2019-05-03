@@ -1,2 +1,29 @@
+.header{
+    
+    text-align: center;
+    background-color: darkcyan;
+    padding: 1 0 1 0;
+}
+.body{
+    text-align: center;
+    border-style: solid;
+    border: 3 3 3 3;
+    border-radius: 10px;
+    border-top: 5px
+    
+}
+.questions{
+    text-align: center;
+    border-style: solid;
+    border: 3 3 3 3;
+    border-radius: 10px;
+    border-top: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    background-color:lightcyan;
 
+
+
+}
 

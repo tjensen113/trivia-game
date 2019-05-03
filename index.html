@@ -1,23 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src = https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/core.js></script>
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Captain under pants</title>
+    <link type='text/css' rel='stylesheet' href='assets/css/style.css'/>
+    <script src='assets/javascript/app.js'></script> 
 </head>
 <body>
-    <div id="timer"></div>
-    <div id="questions"></div>
-    <div id="choices"></div>
-    <div id="options"></div>
+    <div class ="header">
+      <h1>CAPTAIN UNDERPANTS trivia game</h1>
+         <div class ='results'>
+           <h2>you scored: not yet attempted</h2>
+        </div>
+    </div>
 
-        <button id="submit">Submit</button>
+<div class = "body">
+    <form name = "quiz" onsubmit="return onsubmit()">
+        <div class ="questions">
+            <h1>Who are the main charecters in the captain underpants series</h1>
+            <input type="radio" name = "q1" value="a">Harold & Humar<br>
+            <input type="radio" name = "q1" value="b">Starksky & Hutch<br>
+            <input type="radio" name = "q1" value="c">George & Harold<br>
+            <input type="radio" name = "q1" value="d">Tom & Jerry<br>
+        </div>
+        <div class ="questions">
+                <h1>What is Captain underpants's secret itdentity</h1>
+                <input type="radio" name = "q2" value="a">Melvin Sneadley<br>
+                <input type="radio" name = "q2" value="b">Kenny B Meaner<br>
+                <input type="radio" name = "q2" value="c">Benjermin Krupp<br>
+                <input type="radio" name = "q2" value="d">Diahareastein Poopypants<br>
+            </div>
+            <div class ="questions">
+                    <h1>What are harold and Georges skills</h1>
+                    <input type="radio" name = "q3" value="a">epic pranks<br>
+                    <input type="radio" name = "q3" value="b">making comics<br>
+                    <input type="radio" name = "q3" value="c">fart jokes<br>
+                    <input type="radio" name = "q3" value="d">all of the above<br>
+                </div>
+                <div class ="questions">
+                        <h1>what turns Captain Underpants back into Principal Krupp</h1>
+                        <input type="radio" name = "q4" value="a">Secret formula<br>
+                        <input type="radio" name = "q4" value="b">Mud<br>
+                        <input type="radio" name = "q4" value="c">Water<br>
+                        <input type="radio" name = "q4" value="d">Chocalate pudding<br>
+                    </div>
+                    <div class ="questions">
+                            <h1>What did George and Harold into the cheerleadrs pom-poms</h1>
+                            <input type="radio" name = "q5" value="a">glue<br>
+                            <input type="radio" name = "q5" value="b">dust<br>
+                            <input type="radio" name = "q5" value="c">brass monkey<br>
+                            <input type="radio" name = "q5" value="d">pepper<br>
+                        </div>
+                        <button type="submit">SUBMIT</button>
+                        
 
-    <div id="option0"></div>
-    <script src='assets/javascript/app.js'></script>
+
+</div>
+
+	
+
+ 
+	
+    		
+    	
+
+		
+	
+<script type='text/javascript' src='assets/javascript/app.js'></script>
+</div>
 </body>
 </html>
