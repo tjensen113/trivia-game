@@ -1,3 +1,8 @@
+document.readyState()
+
+
+
+
 function onSubmit(){
    var score=0;
    var numOfQuestions=5;
@@ -17,7 +22,8 @@ function onSubmit(){
        [i]++);
        
    }
-// more syntax errors once again!!!!!!!!grrrrrrr!!!!!!!!!
+
+   // more syntax errors once again!!!!!!!!grrrrrrr!!!!!!!!!
 
 
        
