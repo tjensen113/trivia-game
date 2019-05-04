@@ -9,5 +9,25 @@ function onSubmit(){
    var q3 = document.forms[quiz][q3].value;
    var q4 = document.forms[quiz][q4].value;
    var q5 = document.forms[quiz][q5].value;
-    alert(q5)
+   newFunction(score);
+   
+
+   for(i=0;i<=numOfQuestions;i++){
+       if (eval('q'.length) (ansArr.length-1)
+       [i]++);
+       
+   }
+// more syntax errors once again!!!!!!!!grrrrrrr!!!!!!!!!
+
+
+       
+        
+   
+
+function newFunction(score) {
+    var results = document.getElementById('results');
+    results.innerHTML = "<h2>Youscored " + score + "points</h2>";
+    return false;
 }
+}
+
